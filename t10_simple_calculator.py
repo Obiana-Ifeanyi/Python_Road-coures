@@ -18,7 +18,7 @@ elif input2 == '*':
 
 elif input2 == '/':
  res = input1 / input3
- n = int(res) 
+ n = int(res)
  print (n)
 
 else:
