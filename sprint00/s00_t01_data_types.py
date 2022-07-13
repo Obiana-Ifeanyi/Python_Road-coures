@@ -27,13 +27,7 @@
     # • string with a value: 'Gris Money'
     # • boolean with a value: True
 
-integer_value = 50
-float_value = -42.00001
-string_value = 'Gris Money'
-boolean_value = False
-
-
-print (integer_value)
-print (float_value)
-print (string_value)
-print (boolean_value)
+print (50)
+print (-42.00001)
+print ('Gris Money')
+print (False)
