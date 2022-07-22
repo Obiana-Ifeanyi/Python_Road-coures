@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @Gris
-- 👀 I’m interested in devops
+- 👀 I’m interested in ------
 - 🌱 I’m currently learning python programming language 
-- 💞️ I’m looking to collaborate on networking 
+- 💞️ I’m looking to collaborate on  
 - 📫 How to reach me 
 
 <!---
