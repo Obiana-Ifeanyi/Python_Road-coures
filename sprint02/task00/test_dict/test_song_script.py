@@ -1,4 +1,5 @@
-from songs import song1
+from test_song_function import test_song
+
 
 verses = (("There's nothing you can do that can't be done",
            "Nothing you can sing that can't be sung",
@@ -25,7 +26,7 @@ test_chorus = ('** CHORUS line1', '** CHORUS line2')
 
 def test_script(verses, chorus, test_description):
     print ('\n' + f'test - {test_description}'.center(40, '_'))
-    print ('[start]', *song1(verses, chorus), '[end]', sep='\n')
+    print ('[start]', *test_song(verses, chorus), '[end]', sep='\n')
 
 
 
