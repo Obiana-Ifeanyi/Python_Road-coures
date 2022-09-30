@@ -1,0 +1,44 @@
+
+# web reference and resources
+'https://www.geeksforgeeks.org/python-script-to-open-a-web-browser/'
+'https://www.geeksforgeeks.org/python-launch-a-web-browser-using-webbrowser-module/'
+'https://docs.python.org/3/library/webbrowser.html'
+'https://www.geeksforgeeks.org/command-line-arguments-in-python/'
+'https://linuxconfig.org/how-to-set-browser-environment-variable-on-linux#:~:text=Setting%20environment%20variables%20is%20usually,configured%20by%20the%20GUI%20itself.'
+
+
+
+
+# regex to match url
+(https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\.[^\s]{2,}|www\.[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\.[^\s]{2,}|https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9]+\.[^\s]{2,}|www\.[a-zA-Z0-9]+\.[^\s]{2,})
+
+
+
+Will match the following cases
+
+http://www.foufos.gr
+https://www.foufos.gr
+http://foufos.gr
+http://www.foufos.gr/kino
+http://werer.gr
+www.foufos.gr
+www.mp3.com
+www.t.co
+http://t.co
+http://www.t.co
+https://www.t.co
+www.aa.com
+http://aa.com
+http://www.aa.com
+https://www.aa.com
+
+
+Will NOT match the following
+
+www.foufos
+www.foufos-.gr
+www.-foufos.gr
+foufos.gr
+http://www.foufos
+http://foufos
+www.mp3#.com
