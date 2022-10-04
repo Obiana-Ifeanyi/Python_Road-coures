@@ -1,0 +1,18 @@
+
+
+RANDOM module
+Note: use the random.sample() function when trying to get an element from a list without repeatition.
+The choice() method returns a randomly selected element from a specified sequence, with repeatition and without replacment
+while the random.choices() randomizes mutiple elements from a sequence, returns a list of the times,
+if the specifiled numbers are not given in the second argument of the function by defaults it randomizes one element.
+example: random.choices(list, k=5)  
+
+
+
+
+----SITE-resources----
+https://docs.python.org/3/library/logging.html
+https://docs.python.org/3/howto/logging.html#logging-basic-tutorial
+https://docs.python.org/3/howto/logging.html#logging-advanced-tutorial
+https://careerkarma.com/blog/what-is-init-py/
+https://docs.python.org/3/tutorial/modules.html
