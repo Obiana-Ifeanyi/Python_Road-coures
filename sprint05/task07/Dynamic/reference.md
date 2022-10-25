@@ -1,0 +1,6 @@
+'https://www.geeksforgeeks.org/create-classes-dynamically-in-python/'
+'https://docs.python.org/3/library/types.html'
+'https://python-course.eu/oop/dynamically-creating-classes-with-type.php'
+'https://stackoverflow.com/questions/15247075/how-can-i-dynamically-create-derived-classes-from-a-base-class'
+'https://rusingh.com/python-tip-create-class-dynamically/'
+'https://mgarod.medium.com/dynamically-add-a-method-to-a-class-in-python-c49204b85bd6'
