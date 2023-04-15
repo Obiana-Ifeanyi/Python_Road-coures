@@ -1,7 +1,2 @@
 <h2 id="sprint01">https://github.com/Gris1109/Python_Road-coures/tree/main/sprint05/task05/threads</h2>
 [Link to multi-threading](#sprint01)
-
-
-
-## Installation <a name="installation"></a>
-[multi-threading](#installation)
